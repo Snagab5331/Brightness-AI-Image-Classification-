@@ -50,6 +50,9 @@ Results:
 - Model performance decreased as image brightness moved away from normal conditions.
 - Low-light images produced the highest classification error rates.
 - Preprocessing improved accuracy in several cases, especially in extreme lighting conditions.
+-  As soon as the brightness was –50, the accuracy was roughly 70% and when the brightness was +50, the accuracy fell to 86%.
+-  The accuracy of the model when the brightness was 100 was 80% while the accuracy when the brightness was 50 was 86%.
+-  The model achieved the highest accuracy of 94% when the objects had the original brightness or the same brightness as the trained images. 
 (See /figures folder or research paper for detailed graphs and charts)
 
 Key Insights: 
@@ -61,7 +64,21 @@ Tools and Technologies:
 - Python
 - NumPy
 - OpenCV
+- TensorFlow
+- Keras
+- scikit-learn
+- VGG16
+
+Drawbacks: 
+- Some objects were darker or lighter in colors
+- Just 3 models were compared
+
+Importance of these results: 
+Understanding how brightness impacts the accuracy of an AI model has a significant impact on many fields such as medicine, self-driving cars, etc. For instance, when one is in the dark and tries to open their phone using the face ID, it wouldn’t recognize the image due to minimal lighting. However, if the same person is in a excessively bright area, the phone’s ability to recognize that person would be significantly higher. Another example is that medical diagnosis requires normal to greater amounts of brightness to reduce the chances of being misdiagnosed. So, MRI scans or X- ray scans require more light and would result in misdiagnosis or a disease
+when the scans are captured in very minimal lightning. Misdiagnosis can happen even in ideal condition,but the chances of that would be very minute. These are just a few of the fields in which understanding the relationship between brightness and the accuracy of the AI model. Other fields include self-driving cars, surveillance, etc. Now in all fields listed above, improving the brightness conditions would result in higher accuracy even if the images are taken in differing lighting conditions. To sum it up, better brightness levels can positively impact AI models reliability, safety, and efficiency.
 
 Future Improvements:
 - Test more advanced models (CNN architectures or transformers)
 - Expand dataset size and diversity
+
+
