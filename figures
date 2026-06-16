@@ -1,4 +1,20 @@
-This section presents key visualizations from the experiment, highlighting how image brightness affects classification performance and how preprocessing techniques influence model robustness.
+VGG16 (Base) Model Accuracy 
+This graph shows the accuracy of the VGG16 base model depicting two lines one which is the trained date and one showing the validation. Below is the link to the image in the respository. 
+https://github.com/Snagab5331/Brightness-AI-Image-Classification-/blob/ae75fc765611c82a63bee05ebdb7d00c585789be/VGG16%20Base%20Model%20Accuracy.png
+
+VGG16 (Base + FFNN) Model Accuracy 
+This graph shows the accuracy of the VGG16 base + FFNN model depicting two lines one which is the trained date and one showing the validation. Below is the link to the image in the respository. 
+https://github.com/Snagab5331/Brightness-AI-Image-Classification-/blob/d2e8ea3890a34dc4e1012bb1c0138327eff5de1d/VGG16%20Base%20%2B%20FFNN%20Model%20Accuracy.png
+
+VGG16 (Base + FFNN + Data Augumentation) Model Accuracy 
+This graph shows the accuracy of the VGG16 base + FFNN + data augumentation model depicting two lines one which is the trained date and one showing the validation. Below is the link to the image in the respository. 
+https://github.com/Snagab5331/Brightness-AI-Image-Classification-/blob/d2e8ea3890a34dc4e1012bb1c0138327eff5de1d/VGG16%20Base%20%2B%20FFNN%20%2B%20Data%20Augumentation%20Model%20Accuracy.png
+
+After analyzing these graphs about each type of model's accuracy, we went ahead and used the VGG16 (Base + FFNN) model to test the brightness levels on. 
+
+
+
+
 
 
 
